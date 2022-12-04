@@ -1,2 +1,5 @@
 .doit.db
 __pycache__/
+pdf/
+png/
+svg/
