@@ -33,6 +33,8 @@ Then run `doit`. It will build an example PDF and PNG.
 It uses [doit](https://pydoit.org/) as a build tool. Look inside `dodo.py`
 to see the pikchr, pandoc, and inkscape commands that are used.
 
+# Example Diagram
+
 ```pikchr
 box "doit"
 arrow
