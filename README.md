@@ -13,15 +13,25 @@ This project contains examples of how to:
 
 ## With Nix
 
-If you have the Nix package manager installed, just run `nix-shell`.
+If you have the Nix package manager installed, just run `./build`. Or run
+`nix-shell` and then inside the nix-shell, run `doit`.
 
 ## Without Nix
 
-Without Nix, you'll need doit, fossil, inkscape, pandoc, and pikchr installed.
+Without Nix, you'll need to have have these tools installed and in your PATH:
+
+- doit
+- fossil
+- inkscape
+- pandoc
+- pikchr
+
+Then run `doit`. It will build an example PDF and PNG.
 
 # How It Works
 
-It uses [doit](https://pydoit.org/) as a build tool.
+It uses [doit](https://pydoit.org/) as a build tool. Look inside `dodo.py`
+to see the pikchr, pandoc, and inkscape commands that are used.
 
 ```pikchr
 box "doit"
@@ -31,6 +41,5 @@ box "pandoc"
 
 # References
 
-[Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
-
-
+- [pikchr](https://pikchr.org)
+- [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
