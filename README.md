@@ -20,11 +20,11 @@ If you have the Nix package manager installed, just run `./build`. Or run
 
 Without Nix, you'll need to have have these tools installed and in your PATH:
 
-- doit
+- [doit](https://pydoit.org/)
 - fossil
 - inkscape
-- pandoc
-- pikchr
+- [pandoc](https://pandoc.org/MANUAL.html#pandocs-markdown)
+- [pikchr](https://pikchr.org)
 
 Then run `doit`. It will build an example PDF and PNG.
 
@@ -39,7 +39,7 @@ arrow
 box "pandoc"
 ```
 
-# References
+# Credits
 
-- [pikchr](https://pikchr.org)
-- [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+The 'pikchr.lua` code comes from
+[pikchr-filter](https://code.jboy.space/pikchr-filter/doc/trunk/README.md)
